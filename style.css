@@ -1,0 +1,343 @@
+/* optima font embedded downloaded- https://www.cufonfonts.com/font/optima */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{ 
+  scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body{
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+	background-size: cover;
+  position: absolute;
+	margin: 0;
+  padding: 0;
+  height:100%;
+  width: 100vw !important;
+  line-height: 1.6;
+  background-color:  rgb(255, 254, 251);
+}
+
+header{
+  z-index: 100;
+  position:fixed; 
+  width:100%; 
+  height:100px; 
+}
+header a{
+  color:black;
+  display:inline-block; 
+  padding:0px 30px; 
+  height:60px;
+  line-height:60px; 
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px; 
+  font-weight:700;
+}
+
+.nav {             
+  width: 100%;
+  height: 70px;
+  background-color:floralwhite;
+  position: fixed;
+  top: 0;
+}
+.nav > .nav-header {
+  display: inline;
+}
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+.nav > .nav-links {
+  display: inline;
+  font-size: 18px;
+}
+.nav-links  {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:'Optima';
+  font-weight:normal;
+}
+.nav > .nav-header > .nav-title > .logo{
+  display: inline-block;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.video-section{
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
+.video{
+  top: 0;
+  left: 0;
+  width: 100vw;
+  clip-path: inset(1px 0px 100px 0px);
+  opacity: 0.5;
+}
+.video-section .overlay{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+.video-logoimage{
+  width: 500px;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding-bottom: 2rem;
+}
+
+/* This is container section */
+
+.container{
+  background:  rgb(255, 254, 251);
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4.6rem;
+  padding-left: 4.6rem;
+  font-family:'Optima';
+  font-weight:normal;
+}
+.underline-specialities {
+  width: 450px;
+  border: 1px solid rgb(241, 140, 140);
+  margin: 0 auto 1.5px auto;
+}
+.underline-aboutus {
+  width: 270px;
+  border: 1px solid rgb(241, 140, 140);
+  margin: 0 auto 1.5px auto;
+}
+.foodimage{
+  padding: 0.25rem;
+  background-color: floralwhite;
+  border: 1px solid rgb(241, 140, 140);	
+  width: 350px;
+  height: 213px;
+}
+.d-flex{
+  display: flex!important;
+  flex-direction: row;
+}
+
+/* Section Specialities */
+.section-specialities{
+  height: 100px;
+  display: inline-block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+}
+.section-specialities > h1{
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 300;  
+}
+
+/* Breakfast Row */
+.row-breakfast {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 3rem 0; 
+}
+.breakfast-description {
+  width: 50%;
+  height: 10vh;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
+.breakfast-description > h1{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: initial;
+}
+.breakfast-description > h3{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.breakfast-image{
+  justify-content: flex-end!important;
+  padding-left: 100px;
+}
+
+/* Lunch Row */
+.row-lunch {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 3rem 0;
+}
+.lunch-description {
+  width: 50%;
+  height: 10vh;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
+.lunch-description > h1{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: initial;
+}
+.lunch-description > h3{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.lunch-image{
+  justify-content: flex-end!important;
+  padding-left: 100px;
+}
+
+/* Dinner Row */
+.row-dinner {
+  flex-wrap: wrap;
+  display: flex;
+}
+.dinner-description {
+  width: 50%;
+  height: 10vh;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
+.dinner-description > h1{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: initial;
+}
+.dinner-description > h3{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.dinner-image{
+  justify-content: flex-end!important;
+  padding-left: 100px;
+  padding-bottom: 35px;
+}
+
+/* Section About Us */
+.section-aboutus{
+  height: 480px;
+  display: inline-block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto 
+}
+.section-aboutus > h1{
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-top: 20px; 
+}
+.section-aboutus > h2{
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-top: 40px;
+}
+.section-aboutus > .about-description{
+  font-size: 1.4rem;
+  text-align: justify;
+}
+p{
+  font-size: 1.1rem;
+  padding-top: 6px;
+  text-align: justify;
+}
+
+/* Footer Section*/
+.footer{
+  padding-top: 0rem; 
+  background-color: #fde3cb;
+  font-family:'Optima';
+  font-weight:normal;
+}
+.text-center{
+  text-align: center;
+}
+.footer-copyright{
+  background-color: #fde3cb;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: .5rem;
+}
+.footer-logo{
+  width: 100px;
+  padding-top: 6px;
+  vertical-align: middle;
+}
+.footer-links > a > img{
+  text-decoration: none;
+  color: black;
+  margin: 0 .5rem;
+}
+.footer-links > h4 {
+  margin-bottom: .2rem;
+}
+.twitter {
+  width: 38px ;
+}
+.instagram{
+  width: 35px ;
+}
+.facebook{
+  width: 18px;
+}
+
+/* Font Family - Optima */
+@font-face {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima'), url('font-optima/OPTIMA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Optima Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Italic'), url('font-optima/Optima_Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Optima Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Medium'), url('font-optima/Optima\ Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Optima Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Bold'), url('font-optima/OPTIMA_B.woff') format('woff');
+}
